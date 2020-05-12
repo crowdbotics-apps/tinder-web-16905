@@ -35,9 +35,9 @@ urlpatterns = [
     path("home/", include("home.urls")),
 ]
 
-admin.site.site_header = "web"
-admin.site.site_title = "web Admin Portal"
-admin.site.index_title = "web Admin"
+admin.site.site_header = "tinder-web"
+admin.site.site_title = "tinder-web Admin Portal"
+admin.site.index_title = "tinder-web Admin"
 
 # swagger
 schema_view = get_schema_view(
